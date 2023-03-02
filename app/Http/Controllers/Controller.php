@@ -9,4 +9,5 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, ValidatesRequests;
+    // https://devdojo.com/bobbyiliev/how-to-use-laravel-websockets
 }
